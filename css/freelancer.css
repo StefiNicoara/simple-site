@@ -5,67 +5,7 @@
  */
 
 body {
-  font-family: 'Lato';
-}
-
-header{
-  margin-top: 50px;
-}
-
-.about {
-  background-color: rgb(221, 221, 221);
-}
-
-header h1{
-  border-bottom: 1px solid grey;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-family: 'Nunito', sans-serif;
-}
-
-header h2{
-  text-align: center;
-  color: rgb(182, 182, 182);
-  font-family: 'Nunito', sans-serif;
-}
-
-form {
-  margin: 70px;
-}
-
-footer{
-  background-color: black;
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-
-footer p{
-  color: white;
-}
-
-.my-copyright{
-  background-color: rgb(221, 221, 221);
-}
-
-.my-logo{
-  color: black;
-  font-family: 'Pacifico', cursive;
-  font-size: 1.5em;
-  margin-right: 10px;
-}
-
-.my-logo:hover{
-  color: rgb(221, 221, 221);
-  text-decoration: none;
-}
-
-.portofolio-display h1{
-  margin-bottom: 20px;
-}
-
-.campaign-cards{
-  margin-top: 30px;
-  align-content: space-between;
+  font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -395,14 +335,6 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
 }
 
-a {
-  color: #18BC9C;
-}
-
-a:focus, a:hover, a:active {
-  color: #128f76;
-}
-
 .btn {
   border-width: 2px;
 }
@@ -441,4 +373,67 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.about {
+  background-color: rgba(221, 221, 221, 1);
+}
+
+header h1 {
+  border-bottom: 1px solid rgba(128, 128, 128, 1);
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Nunito', sans-serif;
+}
+
+header h2 {
+  text-align: center;
+  color: rgba(182, 182, 182, 1);
+  font-family: 'Nunito', sans-serif;
+}
+
+form {
+  margin: 70px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  color: rgb(255, 255, 255, 1);
+}
+
+.my-copyright {
+  background-color: rgba(221, 221, 221, 1);
+}
+
+.my-logo {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.my-logo:hover {
+  color: rgba(221, 221, 221, 1);
+  text-decoration: none;
+}
+
+.portofolio-display h2 {
+  margin-bottom: 20px;
+}
+
+.campaign-cards-display {
+  padding-top: 1.5rem;
+}
+
+.campaign-cards-display h2 {
+  margin-bottom: 20px;
 }
